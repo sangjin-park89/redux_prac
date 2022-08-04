@@ -1,3 +1,7 @@
+- refusing to merge unrelated histories라는 문구가 뜨면서 git push가 진행되지 않을 때는
+  - git pull origin 브랜치명 --allow-unrelated-histories
+  - 를 입력한다. --allow-unrelated-histories는 서로 관련이 없는 이질적인 두 프로젝트를 병합이 거부되는 git을 허용하게 만들어주는 명령어이다.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
